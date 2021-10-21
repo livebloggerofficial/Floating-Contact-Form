@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="floating-contact-form">
+      <div class="form-container">
+        <h3>We'd love to hear from you</h3>
+
+        <form action="#">
+          <div class="field-container">
+            <i class="fas fa-signature"></i>
+            <label for="name">Name</label>
+            <input class="form-input" type="text" id="name" />
+          </div>
+
+          <div class="field-container">
+            <i class="fas fa-envelope"></i>
+            <label for="email">Email</label>
+            <input class="form-input" type="text" id="email" />
+          </div>
+
+          <div class="field-container">
+            <i class="far fa-sticky-note"></i>
+            <label for="message">Message</label>
+            <textarea
+              class="form-input"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+
+      <div class="contact-icon">
+        <i class="fas fa-comments"></i>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
